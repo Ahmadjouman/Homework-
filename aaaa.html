@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aaaaaa</title>
+    <link rel="stylesheet" href="aaaa.css">
+
+</head>
+<body>
+    <header>
+        <div class="contenar"> 
+
+            <div id="br">  <h1>تعلم</h1>  </div>
+             
+             <nav>
+             <ul>
+            <li><a class="title1" href="1.html">الصفحة الرئسية</a></li>
+            <li><a class="title" href="#education">تسجيل الدخول</a></li>
+            <li><a class="title" href="#conect">حساب جديد</a></li>
+            <li><a class="title" href="#contact">الكورسات</a></li>
+            <li><a class="title5" href="#search" >ابحث   <input type="search" name="للبحث" placeholder="ابحث عن : اي شي"></a></li>
+            <li><a class="title5" href="#search" >  <input type="button" onclick="goback()" value="رجوع"></a></li>
+            <script>
+                function goback(){
+                   window.history.back(); 
+                }
+            </script>
+            
+            </ul>
+            </nav>
+            </div>
+    </header>
+
+
+    <section class="boxs">
+        <h2 id="syber"> الاقسام   </h2>
+    <div class="tybe">
+    <div onclick="updateContent('1')" class="box"><img src="kali.jpg" alt=""><h1 id="kali">كورس كالي لينكس</h1> </div>
+    <div onclick="updateContent('2')" class="box"><img src="C:\Users\pc\Desktop\احمد معان\صور\images (2).jpeg" alt=""><h1>كورس اختراق اخلاقي</h1> </div>
+    <div onclick="updateContent('3')" class="box"><img src="C:\Users\pc\Desktop\احمد معان\صور\images (1).jpeg" alt=""><h1>كورس اختبار الاختراق</h1> </div> 
+    <div onclick="updateContent('4')" class="box"><img src="C:\Users\pc\Desktop\احمد معان\صور\images1.jpeg" alt=""><h1>كورس فحص الشبكات</h1> </div>
+    <div onclick="updateContent('5')" class="box"><img src="C:\Users\pc\Desktop\احمد معان\صور\img.jpeg" alt=""><h1>كورس اساسيات الشبكات</h1> </div>
+    <div onclick="updateContent('6')" class="box"><img src="C:\Users\pc\Desktop\احمد معان\صور\EDL334_Advanced-Networking_72dpi-digital-e1653602576815.jpg" alt=""><h1>كورس شبكات متقدم</h1> </div> 
+</div>
+ <h2 id="it"> قسم الامن السيبراني  </h2>
+<div class="tybe">
+   
+    
+    <div onclick="updateContent('7')"  class="box"><img src="C:\Users\pc\Desktop\احمد معان\صور\5422984_16fc_2.jpg" alt=""><h1> java script كورس</h1> </div>
+    <div onclick="updateContent('8')"  class="box"><img src="C:\Users\pc\Desktop\احمد معان\صور\Computer-Courses-in-Perinthalmanna-python-Copy.jpg" alt=""><h1>Pathon كورس</h1> </div>
+    <div onclick="updateContent('9')"  class="box"><img src="C:\Users\pc\Desktop\احمد معان\صور\Screen-Shot-2022-08-09-at-7.03.38-AM.png" alt=""><h1>Opp كورس</h1> </div> 
+    <div onclick="updateContent('10')" class="box"><img src="C:\Users\pc\Desktop\احمد معان\صور\٢٠٢٤٠٩١٥_٠٨٤١٥٩.jpg" alt=""><h1>C# كورس</h1> </div>
+    <div onclick="updateContent('11')" class="box"><img src="C:\Users\pc\Desktop\احمد معان\صور\Best-C-Programming-Courses-For-Beginners.png" alt=""><h1>C كورس</h1> </div>
+    <div onclick="updateContent('12')" class="box"><img src="C:\Users\pc\Desktop\احمد معان\صور\co_img_1539_1633434090.png" alt=""><h1> C++ كورس</h1> </div> 
+</div>
+
+    <h2 id="mt"> قسم تقنية المعلومات  </h2>
+    <script>
+        function updateContent(contentId) {
+            localStorage.setItem('selectedContent', contentId);
+            location.href = "كالي.html"; // توجيه إلى صفحة القالب
+        }
+    </script>
+      <!-- <script>
+        function updateContent(contentId) {
+    localStorage.setItem('selectedContent', contentId);
+  
+    if (contentId === "12") {
+        location.href = "A3.html"; 
+    } else {
+        location.href = "A2.html";
+    }
+}
+    </script> -->
+  
+  
+    <!-- <div class="tybe">
+   
+    <div class="box"><img src="Lady Scorpions 2024.jpg" alt=""><h1>دورة كالي لينكس</h1> </div>
+    <div class="box"><img src="Lady Scorpions 2024.jpg" alt=""><h1>دورة اختراق اخلاقي</h1> </div>
+    <div class="box"><img src="Lady Scorpions 2024.jpg" alt=""><h1>دورة فحص الشبكات</h1> </div>  
+    <div class="box"><img src="Lady Scorpions 2024.jpg" alt=""><h1>دورة كالي لينكس</h1> </div>
+    <div class="box"><img src="Lady Scorpions 2024.jpg" alt=""><h1>دورة اختراق اخلاقي</h1> </div>
+    <div class="box"><img src="Lady Scorpions 2024.jpg" alt=""><h1>دورة فحص الشبكات</h1> </div>
+</div> -->
+
+</section>   
+    
+<footer>
+    <div class="quick-links">
+        <a href="#">من نحن</a>
+        <a href="#">الخدمات</a>
+        <a href="#">سياسة الخصوصية</a>
+        <a href="#">الشروط والأحكام</a>
+    </div>
+    <div class="contact-info">
+        <p>بريد إلكتروني: info@example.com</p>
+        <p>رقم هاتف: 123-456-7890</p>
+    </div>
+    <div class="social-media">
+        <a href="#">فيسبوك</a>
+        <a href="#">تويتر</a>
+        <a href="#">إنستغرام</a>
+        <a href="#">لينكدإن</a>
+    </div>
+
+</footer>
+
+
+</body>
+</html>

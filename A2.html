@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2</title>
+    <link rel="stylesheet" href="A2.css">
+    <link rel="stylesheet" href="javascript">
+
+</head>
+<body>
+    <header>
+        <div class="contenar"> 
+
+            <div id="br">  <h1>تعلم</h1>  </div>
+             
+             <nav>
+             <ul>
+            <li><a class="title1" href="1.html">الصفحة الرئسية</a></li>
+            <li><a class="title" href="#education">تسجيل الدخول</a></li>
+            <li><a class="title" href="#conect">حساب جديد</a></li>
+            <!-- <li><a class="title" href="#contact">الكورسات</a></li> -->
+            <li><a class="title5" href="#search" >ابحث   <input type="search" name="للبحث" placeholder="ابحث عن : اي شي"></a></li>
+            <li><a class="title5" href="#search" >  <input type="button" onclick="goback()" value="رجوع"></a></li>
+            <script> function goback(){
+                window.history.back(); 
+             }</script>
+            </ul>
+            </nav>
+            </div>
+    </header>
+    <section id="video"><div id="disc">
+    <h1 id="title">كورس كالي لينكس  </h1>
+    <h1 id="title1"></h1>
+    </div>  
+    <div>
+        <video id="video1" controls><source id="videoSource" src="" type="video/mp4">
+        متصفحك لا يدعم تشغيل الفيديو.
+    </video></div>
+
+<div id="disc"><h1>وصف الفديو</h1></div>
+
+<div id="mmm"><b> </b></div>
+<script>
+    
+    const templates = {
+        "1": {
+            title1: "1",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "2": {
+            title1: "2",
+            mmm: "سىنبلصثمىخشكهسىلرك هلىخشكهخجةاتثضجلت ضضلتختلجحجضتفث حته حث ضدث ثت خد خدثحل شدضتشضت ",
+            videoSrc: "video1.mp4" 
+        },
+        "3": {
+            title1: "3",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "4": {
+            title1: "4",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "5": {
+            title1: "5",
+            mmm: "سىنبلصثمىخشكهسىلرك هلىخشكهخجةاتثضجلت ضضلتختلجحجضتفث حته حث ضدث ثت خد خدثحل شدضتشضت ",
+            videoSrc: "video1.mp4" 
+        },
+        "6": {
+            title1: "6",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "7": {
+            title1: "7",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "8": {
+            title1: "8",
+            mmm: "سىنبلصثمىخشكهسىلرك هلىخشكهخجةاتثضجلت ضضلتختلجحجضتفث حته حث ضدث ثت خد خدثحل شدضتشضت ",
+            videoSrc: "video1.mp4" 
+        },
+        "9": {
+            title1: "3",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "10": {
+            title1: "10",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "11": {
+            title1: "11",
+            mmm: "سىنبلصثمىخشكهسىلرك هلىخشكهخجةاتثضجلت ضضلتختلجحجضتفث حته حث ضدث ثت خد خدثحل شدضتشضت ",
+            videoSrc: "video1.mp4" 
+        },
+        "12": {
+            title1: "12",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "13": {
+            title1: "13",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "14": {
+            title1: "14",
+            mmm: "سىنبلصثمىخشكهسىلرك هلىخشكهخجةاتثضجلت ضضلتختلجحجضتفث حته حث ضدث ثت خد خدثحل شدضتشضت ",
+            videoSrc: "video1.mp4" 
+        },
+        "15": {
+            title1: "15",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "16": {
+            title1: "16",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "17": {
+            title1: "17",
+            mmm: "سىنبلصثمىخشكهسىلرك هلىخشكهخجةاتثضجلت ضضلتختلجحجضتفث حته حث ضدث ثت خد خدثحل شدضتشضت ",
+            videoSrc: "video1.mp4" 
+        },
+        "18": {
+            title1: "18",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "19": {
+            title1: "19",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "20": {
+            title1: "20",
+            mmm: "سىنبلصثمىخشكهسىلرك هلىخشكهخجةاتثضجلت ضضلتختلجحجضتفث حته حث ضدث ثت خد خدثحل شدضتشضت ",
+            videoSrc: "video1.mp4" 
+        },
+        "21": {
+            title1: "21",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "22": {
+            title1: "22",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "23": {
+            title1: "23",
+            mmm: "سىنبلصثمىخشكهسىلرك هلىخشكهخجةاتثضجلت ضضلتختلجحجضتفث حته حث ضدث ثت خد خدثحل شدضتشضت ",
+            videoSrc: "video1.mp4" 
+        },
+        "24": {
+            title1: "24",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "25": {
+            title1: "25",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "26": {
+            title1: "26",
+            mmm: "سىنبلصثمىخشكهسىلرك هلىخشكهخجةاتثضجلت ضضلتختلجحجضتفث حته حث ضدث ثت خد خدثحل شدضتشضت ",
+            videoSrc: "video1.mp4" 
+        },
+        "27": {
+            title1: "27",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "28": {
+            title1: "28",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        },
+        "29": {
+            title1: "29",
+            mmm: "سىنبلصثمىخشكهسىلرك هلىخشكهخجةاتثضجلت ضضلتختلجحجضتفث حته حث ضدث ثت خد خدثحل شدضتشضت ",
+            videoSrc: "video1.mp4" 
+        },
+        "30": {
+            title1: "30",
+            mmm: "اكتب الوصف",
+            videoSrc: "video1.mp4" 
+        }
+    };
+
+    const selectedContent = localStorage.getItem('selectedContent');
+
+    if (templates[selectedContent]) {
+        document.getElementById("title1").innerText = templates[selectedContent].title1;
+        document.getElementById("mmm").innerText = templates[selectedContent].mmm;
+        document.getElementById("videoSource").src = templates[selectedContent].videoSrc;
+        document.getElementById("video").load();
+    } else {
+        document.getElementById("title1").innerText = "لا يوجد محتوى محدد.";
+        document.getElementById("videoSource").src = "";
+    }
+
+    // document.getElementById("updateButton").addEventListener("click", function() {
+    //     alert("تم تحديث المحتوى!"); // يمكنك إضافة منطق التحديث هنا
+    // });
+</script>
+</section>
+    <footer>
+        <div class="quick-links">
+            <a href="#">من نحن</a>
+            <a href="#">الخدمات</a>
+            <a href="#">سياسة الخصوصية</a>
+            <a href="#">الشروط والأحكام</a>
+        </div>
+        <div class="contact-info">
+            <p>بريد إلكتروني: info@example.com</p>
+            <p>رقم هاتف: 123-456-7890</p>
+        </div>
+        <div class="social-media">
+            <a href="#">فيسبوك</a>
+            <a href="#">تويتر</a>
+            <a href="#">إنستغرام</a>
+            <a href="#">لينكدإن</a>
+        </div>
+    
+    </footer>
+</body>
+</html>

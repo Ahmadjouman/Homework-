@@ -1,0 +1,38 @@
+header{
+    background-color: brown;
+    height: 150px;
+    margin: none;
+    font-style: initial;
+    padding: 5px;
+    border: 5%;
+    text-align: right;
+    direction: rtl;
+
+}
+body{
+    margin:0%;
+}
+.name{
+    font-size: 50px;
+    font-family: Diwani Simple Striped;
+    color: moccasin;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: saddlebrown;
+    width: 60px;
+    height: 110px;
+     text-align: center;
+ margin-left: 90%;
+    /* margin-right: 250px; */
+    border-radius: 50px;
+    display: flex;
+    
+}
+.a{
+    justify-content: space-between
+    text-align: center; 
+}
+.name .a{
+    background-color: ivory;
+}
+

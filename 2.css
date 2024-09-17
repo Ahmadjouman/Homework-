@@ -1,0 +1,213 @@
+
+body{
+    margin: 0;
+    background-color: linen;
+    font-family: PT Bold Heading;
+  
+}
+header{
+   background-color: #642500f3;
+   height: 105px;
+   border-bottom: peru 5px double;
+   
+    position: fixed;
+    width: 100%; 
+  
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    min-width: 90vh;
+  
+}
+header:hover{
+    opacity: 1;
+}
+#br{
+    float: right;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Diwani Simple Striped;
+    margin: -70px 15px;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    
+}
+header a{
+    text-decoration: none;
+    color:  bisque;
+    font-size: 20px;
+    background-color: rgb(247, 171, 109);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+    
+}
+
+.contenar .title1{
+    background-color: bisque;
+    color: rgb(247, 171, 109);
+    font-weight: bold;
+
+}
+.contenar .title5,input{
+    background-color: bisque;
+    color: rgb(247, 171, 109);
+    font-weight: bold;
+    width: 99px;
+  border-radius: 20px;
+    height: 33px;;
+    border: 0;
+
+
+}
+header li{
+    display: inline;
+    padding: 10px;
+   
+}
+header nav{
+    padding: 10px;
+     
+}
+header ul{
+    padding: 10px;
+    margin: 40px 0px;
+   
+}
+.contenar{
+    width: 80%;
+    margin: auto;
+    
+}
+header a:hover{
+    color: black;
+    font-size: 25px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('pexels-denys-12526392.jpg')  no-repeat center center/cover;
+    color: rgb(255, 252, 252);
+    
+}
+.hero .c1 {
+    font-family: Arial;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0px auto;
+    margin-top: 300px;
+  
+}
+.hero .c2 {
+    font-family: Arial;
+    font-size: 30px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.hero .cta-button {
+    display: inline-block;
+    padding: 30px 70px;
+    background-color: #642500d7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px auto;
+
+}
+.featured-courses{
+    background: url('pexels-ann-h-45017-1762851.jpg') no-repeat center center/cover;
+}
+
+
+.featured-courses, .testimonials, .blog-preview, .newsletter {
+    padding: 50px 20px;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    font-family: Dubai;
+    font-weight:bolder;
+    background-color: blanchedalmond;
+   border-radius: 50px;
+    width: 30%;
+    
+    margin: 100px 380px;
+}
+h2:hover{
+    font-family: Dubai;
+    font-weight:bolder;
+    background-color: rgb(0, 0, 0);
+   border-radius: 50px;
+    width: 30%;
+    color: blanchedalmond;
+    box-shadow: black 10px 10px 10px ;
+    margin: 100px 380px;
+}
+.course-card, .testimonial, .blog-post {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+
+.course-card img, .testimonial img, .blog-post img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    border:rgb(249, 214, 182) rgb(64, 34, 5)  10px ;
+    border-style: groove;
+}
+img:hover {
+    width:51%;
+    height: auto;
+    border-radius: 20px;
+    border:rgb(249, 214, 182) rgb(64, 34, 5)  10px ;
+    border-style: groove;
+    box-shadow: rgb(1, 1, 1) 1px 10px 100px 1px;
+}
+footer {
+    background-color:rgb(148, 71, 0);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: peru 10px double;
+    color:  bisque;
+    position:static;
+  
+}
+
+footer .quick-links, footer .contact-info, footer .social-media {
+    margin: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color:  bisque;
+    font-size: 20px;
+    background-color: rgb(247, 171, 109);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+footer a:hover{
+    color: black;
+    font-size: 25px;
+}
+@media (max-width:120px){
+    html{
+        font-size: 55%;
+        max-height: 100px;
+    }
+}
+
+
